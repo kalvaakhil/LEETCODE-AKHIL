@@ -1,0 +1,5 @@
+        alice = False
+        while n > 1:
+            n -= 1
+            alice = not alice
+        return alice
